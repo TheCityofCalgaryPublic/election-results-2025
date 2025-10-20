@@ -1,0 +1,810 @@
+@font-face {
+  font-family: 'cicon';
+  src:  url('fonts/cicon.eot?co18dg');
+  src:  url('fonts/cicon.eot?co18dg#iefix') format('embedded-opentype'),
+    url('fonts/cicon.ttf?co18dg') format('truetype'),
+    url('fonts/cicon.woff?co18dg') format('woff'),
+    url('fonts/cicon.svg?co18dg#cicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cicon-"], [class*=" cicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cicon-circle-hashtag-light:before {
+  content: "\e3e6";
+}
+.cicon-circle-hashtag-solid:before {
+  content: "\e3e7";
+}
+.cicon-location-target:before {
+  content: "\e0ae";
+}
+.cicon-mailbox:before {
+  content: "\e007";
+}
+.cicon-phone:before {
+  content: "\e00c";
+}
+.cicon-circle-x-thin:before {
+  content: "\e016";
+}
+.cicon-user:before {
+  content: "\e027";
+}
+.cicon-people-in-group:before {
+  content: "\e387";
+}
+.cicon-plus-thin:before {
+  content: "\e2ea";
+}
+.cicon-minus-thin:before {
+  content: "\e2eb";
+}
+.cicon-plus:before {
+  content: "\e03a";
+}
+.cicon-minus:before {
+  content: "\e03b";
+}
+.cicon-plus-circle:before {
+  content: "\e03c";
+}
+.cicon-minus-circle:before {
+  content: "\e03d";
+}
+.cicon-plus-square:before {
+  content: "\e03e";
+}
+.cicon-minus-square:before {
+  content: "\e03f";
+}
+.cicon-bars:before {
+  content: "\e042";
+}
+.cicon-calendar:before {
+  content: "\e061";
+}
+.cicon-exclamation-diamond:before {
+  content: "\e07e";
+}
+.cicon-desktop:before {
+  content: "\e090";
+}
+.cicon-layers:before {
+  content: "\e0ab";
+}
+.cicon-map:before {
+  content: "\e0ac";
+}
+.cicon-shield:before {
+  content: "\e0b4";
+}
+.cicon-building-o:before {
+  content: "\e0c3";
+}
+.cicon-bar-chart:before {
+  content: "\e0e3";
+}
+.cicon-person-pie-chart:before {
+  content: "\e38b";
+}
+.cicon-minus-thin-border:before {
+  content: "\e404";
+}
+.cicon-covid:before {
+  content: "\e396";
+}
+.cicon-mask-only:before {
+  content: "\e40c";
+}
+.cicon-menu-open:before {
+  content: "\e412";
+}
+.cicon-menu-collapse:before {
+  content: "\e413";
+}
+.cicon-bus-ct:before {
+  content: "\e3e8";
+}
+.cicon-scooter:before {
+  content: "\e3c5";
+}
+.cicon-gl-stn-underground:before {
+  content: "\e401";
+}
+.cicon-gl-station:before {
+  content: "\e400";
+}
+.cicon-train:before {
+  content: "\e103";
+}
+.cicon-file-dwt:before {
+  content: "\e410";
+}
+.cicon-file-dst:before {
+  content: "\e411";
+}
+.cicon-angle-double-down:before {
+  content: "\e154";
+}
+.cicon-angle-double-left:before {
+  content: "\e155";
+}
+.cicon-angle-double-right:before {
+  content: "\e156";
+}
+.cicon-angle-double-up:before {
+  content: "\e157";
+}
+.cicon-angle-down:before {
+  content: "\e158";
+}
+.cicon-angle-left:before {
+  content: "\e159";
+}
+.cicon-angle-right:before {
+  content: "\e15a";
+}
+.cicon-angle-up:before {
+  content: "\e15b";
+}
+.cicon-arrow-circle-down:before {
+  content: "\e15c";
+}
+.cicon-arrow-circle-left:before {
+  content: "\e15d";
+}
+.cicon-arrow-circle-right:before {
+  content: "\e15e";
+}
+.cicon-arrow-circle-up:before {
+  content: "\e15f";
+}
+.cicon-facebook-circle:before {
+  content: "\e1af";
+}
+.cicon-twitter-circle:before {
+  content: "\e1b2";
+}
+.cicon-linkedin-circle:before {
+  content: "\e1b5";
+}
+.cicon-flickr-circle:before {
+  content: "\e1b7";
+}
+.cicon-youtube-circle:before {
+  content: "\e1bb";
+}
+.cicon-citynews-circle:before {
+  content: "\e1bc";
+}
+.cicon-google-plus-circle:before {
+  content: "\e1bf";
+}
+.cicon-tumblr-circle:before {
+  content: "\e1c3";
+}
+.cicon-map-square:before {
+  content: "\e21a";
+}
+.cicon-map-square-o:before {
+  content: "\e21b";
+}
+.cicon-map-pointer-square:before {
+  content: "\e27e";
+}
+.cicon-map-pointer-square-o:before {
+  content: "\e27f";
+}
+.cicon-calendar-event:before {
+  content: "\e21c";
+}
+.cicon-cemetery:before {
+  content: "\e21d";
+}
+.cicon-atraction:before {
+  content: "\e21e";
+}
+.cicon-visitor-info:before {
+  content: "\e21f";
+}
+.cicon-community-center:before {
+  content: "\e220";
+}
+.cicon-social-dev-centre:before {
+  content: "\e221";
+}
+.cicon-civic-partners-development:before {
+  content: "\e222";
+}
+.cicon-casg:before {
+  content: "\e223";
+}
+.cicon-community-safety:before {
+  content: "\e224";
+}
+.cicon-new-central-library:before {
+  content: "\e225";
+}
+.cicon-park-development:before {
+  content: "\e226";
+}
+.cicon-recreation-development:before {
+  content: "\e227";
+}
+.cicon-after-school-program:before {
+  content: "\e228";
+}
+.cicon-library:before {
+  content: "\e229";
+}
+.cicon-post-secondary:before {
+  content: "\e22a";
+}
+.cicon-school:before {
+  content: "\e22b";
+}
+.cicon-court:before {
+  content: "\e22c";
+}
+.cicon-ems-station:before {
+  content: "\e22d";
+}
+.cicon-fire-stn:before {
+  content: "\e22e";
+}
+.cicon-health-clinic:before {
+  content: "\e22f";
+}
+.cicon-police-service:before {
+  content: "\e230";
+}
+.cicon-traffic-camera:before {
+  content: "\e231";
+}
+.cicon-historic-resource:before {
+  content: "\e232";
+}
+.cicon-building-permit:before {
+  content: "\e233";
+}
+.cicon-development-permit:before {
+  content: "\e234";
+}
+.cicon-dp-public-notices:before {
+  content: "\e235";
+}
+.cicon-loc:before {
+  content: "\e237";
+}
+.cicon-subdivision:before {
+  content: "\e2ec";
+}
+.cicon-lot-dimension:before {
+  content: "\e238";
+}
+.cicon-offleash-dog:before {
+  content: "\e239";
+}
+.cicon-arena:before {
+  content: "\e23a";
+}
+.cicon-art-centre:before {
+  content: "\e23b";
+}
+.cicon-city-park:before {
+  content: "\e23c";
+}
+.cicon-golf-course:before {
+  content: "\e23d";
+}
+.cicon-indoor-pool:before {
+  content: "\e23e";
+}
+.cicon-outdoor-pool:before {
+  content: "\e23f";
+}
+.cicon-skate-park:before {
+  content: "\e240";
+}
+.cicon-leisure-centre:before {
+  content: "\e241";
+}
+.cicon-circle-l:before {
+  content: "\e242";
+}
+.cicon-circle-l-x-thin:before {
+  content: "\e243";
+}
+.cicon-construction-detours-base:before {
+  content: "\e244";
+}
+.cicon-construction-detours:before {
+  content: "\e245";
+}
+.cicon-construction-base:before {
+  content: "\e246";
+}
+.cicon-construction:before {
+  content: "\e247";
+}
+.cicon-residential-parking-polygon:before {
+  content: "\e249";
+}
+.cicon-incidents:before {
+  content: "\e24a";
+}
+.cicon-plow-sander:before {
+  content: "\e2d2";
+}
+.cicon-holiday-tree-drop-off:before {
+  content: "\e24b";
+}
+.cicon-recycle-depot:before {
+  content: "\e24c";
+}
+.cicon-electronics-recycling:before {
+  content: "\e24d";
+}
+.cicon-landfill:before {
+  content: "\e24e";
+}
+.cicon-haz-drop-off:before {
+  content: "\e24f";
+}
+.cicon-leaf-drop-off:before {
+  content: "\e250";
+}
+.cicon-brt-stop:before {
+  content: "\e252";
+}
+.cicon-demolished-historic-resource:before {
+  content: "\e253";
+}
+.cicon-lot-easement:before {
+  content: "\e254";
+}
+.cicon-community-line:before {
+  content: "\e255";
+}
+.cicon-community-line-s:before {
+  content: "\e256";
+}
+.cicon-ward-line:before {
+  content: "\e257";
+}
+.cicon-ward-line-s:before {
+  content: "\e258";
+}
+.cicon-map-dot-line:before {
+  content: "\e259";
+}
+.cicon-map-line-thin:before {
+  content: "\e25a";
+}
+.cicon-map-line:before {
+  content: "\e25b";
+}
+.cicon-bikeway-line:before {
+  content: "\e25c";
+}
+.cicon-ctrain-lines-base:before {
+  content: "\e25d";
+}
+.cicon-ctrain-lines:before {
+  content: "\e25e";
+}
+.cicon-map-location:before {
+  content: "\e25f";
+}
+.cicon-map-location-o:before {
+  content: "\e260";
+}
+.cicon-map-location-inner-circle:before {
+  content: "\e261";
+}
+.cicon-map-pointer:before {
+  content: "\e262";
+}
+.cicon-map-pointer-o:before {
+  content: "\e263";
+}
+.cicon-map-pointer-inner-circle:before {
+  content: "\e264";
+}
+.cicon-aqua-openwater:before {
+  content: "\e265";
+}
+.cicon-wading-pool:before {
+  content: "\e266";
+}
+.cicon-aqua-flatwater:before {
+  content: "\e267";
+}
+.cicon-sailing:before {
+  content: "\e268";
+}
+.cicon-rowing:before {
+  content: "\e269";
+}
+.cicon-volleyball:before {
+  content: "\e26a";
+}
+.cicon-tennis:before {
+  content: "\e26b";
+}
+.cicon-tennis-in:before {
+  content: "\e26c";
+}
+.cicon-soccer:before {
+  content: "\e26d";
+}
+.cicon-soccer-in:before {
+  content: "\e26e";
+}
+.cicon-spray-park:before {
+  content: "\e26f";
+}
+.cicon-shooting-in:before {
+  content: "\e270";
+}
+.cicon-lacrosse:before {
+  content: "\e271";
+}
+.cicon-cricket:before {
+  content: "\e272";
+}
+.cicon-baseball:before {
+  content: "\e273";
+}
+.cicon-biking:before {
+  content: "\e274";
+}
+.cicon-bowling:before {
+  content: "\e275";
+}
+.cicon-bowling-in:before {
+  content: "\e276";
+}
+.cicon-boxing:before {
+  content: "\e277";
+}
+.cicon-curling:before {
+  content: "\e278";
+}
+.cicon-gymnasium:before {
+  content: "\e279";
+}
+.cicon-horseshoe:before {
+  content: "\e27a";
+}
+.cicon-canadian-flag:before {
+  content: "\e38d";
+}
+.cicon-311:before {
+  content: "\e395";
+}
+.cicon-bike-closure:before {
+  content: "\e402";
+}
+.cicon-park-ride:before {
+  content: "\e403";
+}
+.cicon-bike-rack:before {
+  content: "\e41c";
+}
+.cicon-stage:before {
+  content: "\e41d";
+}
+.cicon-dumbbell-in:before {
+  content: "\e42a";
+}
+.cicon-dumbbell-solid:before {
+  content: "\e42e";
+}
+.cicon-paw:before {
+  content: "\e0ce";
+}
+.cicon-parks-recreation:before {
+  content: "\e2ef";
+}
+.cicon-building-planning:before {
+  content: "\e2f1";
+}
+.cicon-environment:before {
+  content: "\e2f5";
+}
+.cicon-bylaws-public-safety:before {
+  content: "\e2f7";
+}
+.cicon-taxes-property-assessment:before {
+  content: "\e2f9";
+}
+.cicon-social-services:before {
+  content: "\e2fb";
+}
+.cicon-cleaning-services:before {
+  content: "\e2fd";
+}
+.cicon-beauty-body-services:before {
+  content: "\e2ff";
+}
+.cicon-production-research:before {
+  content: "\e301";
+}
+.cicon-massage-services:before {
+  content: "\e303";
+}
+.cicon-food-trucks:before {
+  content: "\e305";
+}
+.cicon-yoga-pilates-circle:before {
+  content: "\e311";
+}
+.cicon-swimming-circle:before {
+  content: "\e313";
+}
+.cicon-sports-circle:before {
+  content: "\e315";
+}
+.cicon-skating-hockey-circle:before {
+  content: "\e317";
+}
+.cicon-skateboarding-circle:before {
+  content: "\e319";
+}
+.cicon-sailing-circle:before {
+  content: "\e31b";
+}
+.cicon-playschool-circle:before {
+  content: "\e31d";
+}
+.cicon-nature-circle:before {
+  content: "\e31f";
+}
+.cicon-martial-arts-circle:before {
+  content: "\e321";
+}
+.cicon-golf-circle:before {
+  content: "\e323";
+}
+.cicon-fitness-strenght-circle:before {
+  content: "\e325";
+}
+.cicon-fitness-pre-postnatal-circle:before {
+  content: "\e327";
+}
+.cicon-day-camps-circle:before {
+  content: "\e329";
+}
+.cicon-certifications-leadership-circle:before {
+  content: "\e32b";
+}
+.cicon-arts-visual-circle:before {
+  content: "\e32d";
+}
+.cicon-arts-dance-circle:before {
+  content: "\e32f";
+}
+.cicon-call-center-person:before {
+  content: "\e37d";
+}
+.cicon-digital-thermostat:before {
+  content: "\e369";
+}
+.cicon-infill-construction:before {
+  content: "\e36b";
+}
+.cicon-natural-gas-burner:before {
+  content: "\e36d";
+}
+.cicon-natural-gas-flame:before {
+  content: "\e36f";
+}
+.cicon-overhead-electrical-services-a:before {
+  content: "\e371";
+}
+.cicon-overhead-electrical-services-b:before {
+  content: "\e373";
+}
+.cicon-plumbing-faucet:before {
+  content: "\e375";
+}
+.cicon-plumbing-gas:before {
+  content: "\e377";
+}
+.cicon-water-meter:before {
+  content: "\e379";
+}
+.cicon-historic-city-hall:before {
+  content: "\e368";
+}
+.cicon-solar-panel:before {
+  content: "\e37b";
+}
+.cicon-cannabis:before {
+  content: "\e38c";
+}
+.cicon-large-text:before {
+  content: "\e33b";
+}
+.cicon-large-text-sq:before {
+  content: "\e33c";
+}
+.cicon-mobility:before {
+  content: "\e33d";
+}
+.cicon-mobility-sq:before {
+  content: "\e33e";
+}
+.cicon-open-captioning:before {
+  content: "\e33f";
+}
+.cicon-open-captioning-sq:before {
+  content: "\e340";
+}
+.cicon-seeing-eye-dog:before {
+  content: "\e341";
+}
+.cicon-seeing-eye-dog-sq:before {
+  content: "\e342";
+}
+.cicon-sign-language:before {
+  content: "\e343";
+}
+.cicon-sign-language-sq:before {
+  content: "\e344";
+}
+.cicon-teletypewriter:before {
+  content: "\e345";
+}
+.cicon-teletypewriter-sq:before {
+  content: "\e346";
+}
+.cicon-vision-loss:before {
+  content: "\e347";
+}
+.cicon-vision-loss-sq:before {
+  content: "\e348";
+}
+.cicon-white-cane:before {
+  content: "\e349";
+}
+.cicon-white-cane-sq:before {
+  content: "\e34a";
+}
+.cicon-assisted-listening:before {
+  content: "\e34b";
+}
+.cicon-assisted-listening-sq:before {
+  content: "\e34c";
+}
+.cicon-braille:before {
+  content: "\e34e";
+}
+.cicon-braille-sq:before {
+  content: "\e34d";
+}
+.cicon-closed-captioning:before {
+  content: "\e34f";
+}
+.cicon-closed-captioning-sq:before {
+  content: "\e350";
+}
+.cicon-cognitive-disability:before {
+  content: "\e351";
+}
+.cicon-cognitive-disability-sq:before {
+  content: "\e352";
+}
+.cicon-communication-access:before {
+  content: "\e353";
+}
+.cicon-communication-access-sq:before {
+  content: "\e354";
+}
+.cicon-FM-Infrared-system:before {
+  content: "\e355";
+}
+.cicon-FM-Infrared-system-sq:before {
+  content: "\e356";
+}
+.cicon-hard-of-hearing:before {
+  content: "\e357";
+}
+.cicon-hard-of-hearing-sq:before {
+  content: "\e358";
+}
+.cicon-al-a:before {
+  content: "\e27c";
+}
+.cicon-al-b:before {
+  content: "\e2d3";
+}
+.cicon-al-c:before {
+  content: "\e2d4";
+}
+.cicon-al-d:before {
+  content: "\e2d5";
+}
+.cicon-al-e:before {
+  content: "\e2d6";
+}
+.cicon-al-f:before {
+  content: "\e2d7";
+}
+.cicon-al-g:before {
+  content: "\e2d8";
+}
+.cicon-al-h:before {
+  content: "\e27b";
+}
+.cicon-al-i:before {
+  content: "\e2d9";
+}
+.cicon-al-j:before {
+  content: "\e2da";
+}
+.cicon-al-k:before {
+  content: "\e2db";
+}
+.cicon-al-l:before {
+  content: "\e2dc";
+}
+.cicon-al-m:before {
+  content: "\e2dd";
+}
+.cicon-al-n:before {
+  content: "\e2de";
+}
+.cicon-al-o:before {
+  content: "\e2df";
+}
+.cicon-al-p:before {
+  content: "\e27d";
+}
+.cicon-al-q:before {
+  content: "\e2e0";
+}
+.cicon-al-r:before {
+  content: "\e2e1";
+}
+.cicon-al-s:before {
+  content: "\e2e2";
+}
+.cicon-al-t:before {
+  content: "\e2e3";
+}
+.cicon-al-u:before {
+  content: "\e2e4";
+}
+.cicon-al-v:before {
+  content: "\e2e5";
+}
+.cicon-al-w:before {
+  content: "\e2e6";
+}
+.cicon-al-x:before {
+  content: "\e2e7";
+}
+.cicon-al-y:before {
+  content: "\e2e8";
+}
+.cicon-al-z:before {
+  content: "\e2e9";
+}
